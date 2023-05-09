@@ -11,10 +11,9 @@ from rest_framework.response import Response
 from rest_framework_simplejwt.tokens import AccessToken
 from reviews.models import Category, Genre, Review, Title, User
 
-from .filters import TitleFilter
-
 from api_yamdb.settings import SITE_URL
 
+from .filters import TitleFilter
 from .permissions import (IsAdminUser, IsAdminUserOrReadOnly, IsModerator,
                           IsUserOrReadOnly)
 from .serializers import (AuthSignUpSerializer, CategorySerializer,
