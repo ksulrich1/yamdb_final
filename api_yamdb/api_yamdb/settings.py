@@ -12,7 +12,7 @@ DEBUG = False
 
 ALLOWED_HOSTS = ["*"]
 
-AUTH_USER_MODEL = "reviews.User"
+AUTH_USER_MODEL = "reviews.User"  # j
 
 # Application definition
 
